@@ -15,9 +15,9 @@
 }
 
 html{
-  height: 695px;
-  background: -webkit-linear-gradient(#fff, rgba(172, 171, 171, 0.829) 101%);
-  background-repeat: no-repeat;
+  background: center center cover no-repeat fixed;
+  background: -webkit-linear-gradient(#fff, rgba(172, 171, 171, 0.829) 98%);
+  min-height: 100%;
 }
 #cajita{
   padding: 48px;
@@ -61,11 +61,14 @@ html{
 }
 .btn-clear{
   display: none;
-  margin: 0 auto;
+  margin: 36px auto 0;
   width: 366px;
   border: 1px;
   border-radius: 10px;
   background: #f5d4d491;
+}
+.btn-clear:hover{
+  border:1px solid rgba(248, 105, 105, 0.754);
 }
 .btn-contenedor{
   width: 47px;
@@ -80,9 +83,14 @@ html{
   display:grid;
 }
 .parrafoCreado{
-  display: flex;
+  height: 14px;
+  width: 29%;
 }
 .divDeBotones{
-  margin-left: 78%;
-display: flex;
+  
+}
+.crearDivDeContenedorParrafoAndBotones {
+  width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
