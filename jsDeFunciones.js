@@ -82,7 +82,7 @@ function crearItem(item) {
       }
 
     return listado, arrayVacio;
-}
+};
 
 botonLimpiarTodo.addEventListener('click', borrarTodo);
 function borrarTodo(){
