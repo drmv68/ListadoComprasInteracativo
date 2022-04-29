@@ -14,7 +14,6 @@ if (localStorage.length>0) {
     listado = listado.split(',')
     botonLimpiarTodo.style.display='block';
 };
-
 buscarYpintar(listado);
 
 var datos = enviar.addEventListener('click', evento);
